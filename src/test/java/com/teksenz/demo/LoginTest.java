@@ -10,7 +10,7 @@ public class LoginTest {
         System.out.println("login test with valid user and password");
         String exp = "Hello";
         String act = "Hello";
-        Assert.assertEquals(act,exp,"The words dont match");
+        Assert.assertEquals(act,exp,"The words do not match");
     }
 
 @Test(priority = 2,testName = "Login test with invalid username and password")
